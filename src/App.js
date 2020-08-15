@@ -1,8 +1,16 @@
 import React from 'react';
-import './App.css';
+import Cards from './components/Cards';
 
 function App() {
-  return <div>Tailwind</div>;
+  // Card
+  // Dropdown
+  // Navbar
+
+  return (
+    <div>
+      <Cards />
+    </div>
+  );
 }
 
 export default App;
