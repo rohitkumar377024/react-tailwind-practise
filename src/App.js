@@ -1,13 +1,11 @@
 import React from 'react';
+import NavBar from './components/NavBar';
 import Cards from './components/Cards';
 
 function App() {
-  // Card
-  // Dropdown
-  // Navbar
-
   return (
     <div>
+      <NavBar />
       <Cards />
     </div>
   );
