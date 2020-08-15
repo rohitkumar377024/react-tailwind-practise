@@ -1,8 +1,8 @@
 import React from 'react';
-import ThreeDots from '../img/threedots.svg';
 import Image from './Image';
 import Chip from './Chip';
 import Rating from './Rating';
+import Dropdown from './Dropdown';
 
 const Card = () => {
   return (
@@ -30,7 +30,7 @@ const Card = () => {
         <div className="flex items-center mt-2">
           <Rating stars={4} max={5} filledColor="red-500" emptyColor="red-200" />
           <p className="w-full ml-2 font-semibold text-red-500">33 Reviews</p>
-          <img className="w-8 h-8 mr-1" src={ThreeDots} alt="" />
+          <Dropdown options={['Share', 'Favorite', 'Hide']} />
         </div>
 
         <p className="mt-2 text-2xl font-semibold text-red-500">₹1499</p>
